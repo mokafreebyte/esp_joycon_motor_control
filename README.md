@@ -54,13 +54,13 @@ This project enables intuitive control of dual stepper motors using a Nintendo J
                                             │
                     ┌───────────────────────┼───────────────────────┐
                     │                       │                       │
-              ┌─────▼────┐           ┌─────▼────┐           ┌─────▼────┐
-              │  TB6600   │           │  TB6600  │           │  GND     │
-              │  Motor 1  │           │  Motor 2 │           │  Rail    │
-              │ Driver    │           │ Driver   │           │          │
-              └─────┬────┘           └─────┬────┘           └──────────┘
+              ┌─────▼────┐            ┌─────▼────┐            ┌─────▼────┐
+              │  TB6600  │            │  TB6600  │            │  GND     │
+              │  Motor 1 │            │  Motor 2 │            │  Rail    │
+              │ Driver   │            │ Driver   │            │          │
+              └─────┬────┘            └─────┬────┘            └──────────┘
                     │                       │
-          (Motor Power 12-24V)     (Motor Power 12-24V)
+          (Motor Power 12-24V)      (Motor Power 12-24V)
           
 ESP32 GPIO Connections:
 ────────────────────────
