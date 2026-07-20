@@ -2,6 +2,14 @@
 
 A wireless motor control system using Nintendo Joycon controllers to drive two NEMA17 stepper motors through a ESP32 microcontroller.
 
+## Quickstart Webinterface
+
+1. Download and flash the esp32s3_webcontrol.ino file onto your esp32.
+2. After reset, the esp should open a new wifi called **"ArmControl"**.
+3. Connect using password: **"steuerung123"**.
+4. On your device, open the address **192.168.4.1** in your browser.
+5. Control the joints by holding down the buttons, toggle fine speed with the bottom button.
+
 ## Overview
 
 This project enables intuitive control of dual stepper motors using a Nintendo Joycon controller in wireless mode. The ESP32 automatically detects and connects to a Joycon when placed in pairing mode, and the joystick axes directly control motor speed and direction.
